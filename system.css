@@ -1,0 +1,91 @@
+*{
+    margin: 0;  
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.action{
+    margin: 60px;
+}
+.header h1{
+    font-size: 40px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    padding: 8px 30px;
+}
+
+.header ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.longin{
+    padding: 10px 40px;
+    background-color: brown;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #204E51;
+    color: white;
+    border-radius: 12px;
+
+}
+
+.signup{
+    padding: 10px 40px;
+    background-color: blueviolet;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #204E51; 
+    color: white;
+    border-radius: 12px;
+
+}
+
+.family {
+    
+    height: 600px;
+    background-image: url("qamadi.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.family h1 {
+    color: white;
+    padding-top: 10%;
+    font-size: 86px;
+}
+.family p {
+    color: white;
+    font-size: 18x;
+    margin: 10px 30%;
+}
+
+.getStartedBtn {
+    margin-top: 40px;
+    font-size: 22px;
+    border-radius: 22px;
+    color: white;
+    background-color: #c92fa780;
+    padding: 15px 40px;
+    border: 3px solid #204E51;
+
+}
+
+.learnBtn {
+    font-size: 22px;
+    border-radius: 22px;
+ 
+    color: #204E51;
+    border: 3px solid #204E51;
+    padding: 15px 40px;
+
+}

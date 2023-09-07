@@ -1,0 +1,25 @@
+
+body{
+    justify-content: center;
+    display: flex;
+}
+
+
+.light{
+    height: 300px;
+    width: 300px;
+    border:  2px solid;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+.on{
+    margin-top: 30%;
+    margin-left: 10px;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.off{
+    font-size: 40px;
+}

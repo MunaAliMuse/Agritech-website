@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+
+    
+    background-color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side-btn{
+
+    margin-right: 60px;
+}
+.header h1 {
+    font-size: 40px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    padding: 8px 30px;
+}
+
+.header ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.loginBtn {
+    padding: 10px 40px;
+    background-color: #f81a1a;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #204E51;
+    color: white;
+    border-radius: 10px;
+}
+
+.signUpBtn {
+    padding: 10px 40px;
+    border: 2px solid #490457;
+    font-size: 20px;
+    color: #204E51;
+    border-radius: 10px;
+
+}
+
+
+.family {
+    
+    height: 600px;
+    background-image: url("ima.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.family h1 {
+    color: white;
+    padding-top: 10%;
+    font-size: 86px;
+}
+.family p {
+    color: white;
+    font-size: 18x;
+    margin: 10px 30%;
+}
+
+.getStartedBtn {
+    margin-top: 40px;
+    font-size: 22px;
+    border-radius: 22px;
+    color: white;
+    background-color: #c92fa780;
+    padding: 15px 40px;
+    border: 3px solid #204E51;
+
+}
+
+.learnBtn {
+    font-size: 22px;
+    border-radius: 22px;
+ 
+    color: #204E51;
+    border: 3px solid #204E51;
+    padding: 15px 40px;
+
+}
+
+.passion-parent {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    padding: 20px 50px;
+}
+.left-side h1 {
+    font-size: 70px;
+    color: #204E51;
+}
+.right-side img {
+    width: 500px;
+    height: 500px;
+    border-radius: 22px;
+}
+.left-side button {
+    margin-top: 20px;
+    padding: 15px 50px;
+    background-color: #204E51;
+    font-size: 26px;
+    color: white;
+    border: none;
+    border-radius: 32px;
+}
+
+
+.right-side h1 {
+    box-shadow: 0px 2px  4px rgb(253, 150, 150);
+    bottom: -70px;
+    right: 58px;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: #6b6067;
+    background-color: white;
+    width: 300px;
+    padding: 40px;
+    border-radius: 22px;
+}
+
+
+.right-side {
+    position: relative;
+}
+
+
+.service {
+    margin: 5% 10px;
+    text-align: center;
+}
+.service h1 {
+    font-size: 70px;
+    color: #204E51;
+}
+.service p {
+    font-weight: 300;
+    margin: 20px 30%;
+
+}
+
+
+
+
+.box-parent {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box1 {
+    box-shadow: 0px 2px 3px rgb(230, 10, 10);
+    border-radius: 22px;
+    padding: 70px 20px ;
+    text-align: center;
+   background-color: rgb(219, 213, 219);
+}
+
+.box1 h1 {
+    font-size: 22px;
+    color: #204E51;
+}
+
+
+.benefits-parent {
+    margin: 10% 1px;
+    display: flex;
+    padding: 1px 50px;
+}
+
+.l-side h1 {
+    font-size: 85px;
+    color: #204E51;
+}
+.l-side button{
+    margin-top: 20px;
+    background-color: #204E51;
+    color: white;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 12px 60px;
+}
+
+.l-side p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.r-side {
+    border-radius: 20px;
+    background-color: #0d2b3f;
+    height: 800px;
+    width: 1200px;
+}
+
+.icon {
+    padding: 20px;
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+
+.icon h1 {
+    font-size: 50px;
+}
+
+.icon i {
+    background-color: rgb(74, 90, 94);
+    height: 50px;
+    padding: 30px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.fufutured{
+    margin-top: 90px ;
+    text-align: center;
+ }
+.futured h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+.futured p{
+margin: 20px 30%;
+}
+ .box-parent1{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.box-parent1{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    justify-content: center;
+    gap: 130px;
+    height: 500px;
+    
+}
+ 
+.box4{
+    width: 98px;
+    margin-top: 20%;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px 20px ;
+    background-color: white;
+    box-shadow:  0px 2px  6px rgb(4, 207, 146);
+}
+.box-parent1 img{
+    width: 169px;
+    height: 201px;
+    border-radius: 20px;
+    
+}
+.box4{
+    width: 240px;
+
+}
+
+.family1{
+    margin-top: 16%;
+    height: 360px;
+    background-color: slateblue;
+    text-align: center;
+    background-image: url(bower.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+.family1 h1 {
+    padding-top: 8%;
+    font-size: 80px;
+    margin: 10px 20%;
+    color: white;
+} 
+.family1 p {
+    font-size: 29px;
+    margin: 6px 20px ;
+    color: beige;
+    text-align: start;
+    padding-top: 10%;
+}
+
+
+
+
+.getStartedBtn1{
+    padding: 10 40px;
+    font-size: 23px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(143, 5, 124);
+    padding: 15px 40px;
+    border:  none;
+    float: left;
+    margin-left: 28px;
+
+}
+.learnBtn1{
+    padding: 10 40px;
+    font-size: 23px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgba(231, 225, 225 ,0.9);
+    padding: 15px 40px;
+    float: left;
+    border: none;
+    margin-left: 40px;
+
+}
+
+.blog{
+    margin-top: -12px ;
+    text-align: center;
+ }
+.blog h1{
+    font-size: 50px;
+
+}
+.blog p{
+margin: 20px 30%;
+}
+.boxparent2{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    justify-content: center;
+    gap: 130px;
+    
+}
+.boxparent2 img{
+    width: 270px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.kaamil{
+    background-color: white;
+    width: 100%;
+    height: 800px;
+}
+ 
+.test{
+    background-color:  #204E51;
+    width: 80%;
+    height: 360px;
+   margin-top: 8%;
+    margin-left: 12%;
+    border-radius: 12px;
+ color: white;
+ 
+}
+.kaamil h1{
+    text-align: center;
+    font-size: 60px;
+   
+}
+.kaamil p{
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 20px;
+}
+.test img {
+    border-radius: 35px;
+ padding-left: 5%;
+    height: 300px;
+    height: 300px;
+    padding-top: 9%;
+}
+ .test h3{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 2%;
+    
+  
+ }
+ .test{
+    display: flex;
+ }
+ .test h2{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 1%;
+ }
+.BOW{
+    text-align: center;
+    padding-left: 5%;
+  font-size: -38px;
+}
+.rooter{
+    width: 100%;
+    height: 380px;
+    background-color: #0d2b3f;
+margin-top: 5%;
+padding-top: 2%;
+}
+.rooter {
+    color: white;
+    padding: 1px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.raa{
+    padding-top: 2%;
+    padding-right: 7%;
+}
+.far{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.taa{
+    padding-top: 2%;
+}
